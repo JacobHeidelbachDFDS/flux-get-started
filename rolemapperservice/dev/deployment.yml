@@ -6,7 +6,7 @@ metadata:
   namespace: rolemapper-dev
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.rolemapper-service: glob:13*
+    flux.weave.works/tag.rolemapper-service: glob:*
 spec:
   replicas: 1
   selector:
